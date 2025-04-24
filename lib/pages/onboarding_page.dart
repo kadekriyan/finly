@@ -10,7 +10,7 @@ class OnboardingPage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         children: [
-          const SizedBox(height: 30),
+          const SizedBox(height: 80),
           // Logo Finli App
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -45,14 +45,14 @@ class OnboardingPage extends StatelessWidget {
           ),
           const SizedBox(height: 62),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () => Navigator.pushNamed(context, '/login'),
 
             style: ElevatedButton.styleFrom(
               backgroundColor: Color(0xFF3B82F6),
               padding: const EdgeInsets.symmetric(vertical: 24),
             ),
             child: Text(
-              'Masuk',
+              'Selanjutnya',
               style: GoogleFonts.plusJakartaSans(
                 fontSize: 12,
                 color: Colors.white,
