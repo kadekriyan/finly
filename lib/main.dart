@@ -1,3 +1,4 @@
+import 'package:finly/pages/home_page.dart';
 import 'package:finly/pages/login_page.dart';
 import 'package:finly/pages/onboarding_page.dart';
 import 'package:finly/pages/splash_page.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => SplashPage(),
         '/onboarding': (context) => OnboardingPage(),
         '/login': (context) => LoginPage(),
+        '/home': (context) => HomePage(),
       },
     );
   }
