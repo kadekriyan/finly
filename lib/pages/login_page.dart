@@ -92,7 +92,7 @@ class LoginPage extends StatelessWidget {
                 final email = _emailcontroller.text.trim();
                 final password = _passwordcontroller.text.trim();
 
-                if (email == 'admin@gmail.com' && password == 'admin123') {
+                if (email == '' && password == '') {
                   Navigator.pushNamed(context, '/home');
                 } else {
                   showDialog(

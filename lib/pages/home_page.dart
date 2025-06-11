@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
-            onPressed: () => _logout(context),
+            onPressed: () => Navigator.pushNamed(context, '/profile'),
             icon: Image.asset('assets/profile.png'),
           ),
         ],
