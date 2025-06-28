@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
             width: double.infinity,
             height: 250,
             decoration: BoxDecoration(
-              color: AppColor.blue,
+              color: AppColors.blue,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(32),
                 bottomRight: Radius.circular(32),
@@ -31,7 +31,7 @@ class ProfilePage extends StatelessWidget {
                   style: GoogleFonts.plusJakartaSans(
                     fontSize: 20,
                     fontWeight: FontWeight.w600,
-                    color: AppColor.white,
+                    color: AppColors.white,
                   ),
                 ),
                 SizedBox(height: 4),
@@ -40,7 +40,7 @@ class ProfilePage extends StatelessWidget {
                   style: GoogleFonts.plusJakartaSans(
                     fontSize: 14,
                     fontWeight: FontWeight.w600,
-                    color: AppColor.grey,
+                    color: AppColors.grey,
                   ),
                 ),
               ],
